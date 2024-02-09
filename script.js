@@ -1,3 +1,5 @@
+let name = prompt("Enter Your Name : ");
+alert("Hello " + name + ", please enjoy the game !");
 
 let board = [
     [1,2,3],
