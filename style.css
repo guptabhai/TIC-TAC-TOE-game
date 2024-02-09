@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(239, 211, 211);
   }
   
   .grid {
@@ -34,7 +34,7 @@ grid-template-columns: repeat(3 , 0.3fr);
   }
   
   .space:hover {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(106, 199, 227, 0.323);
     transition: background-color .5s;
     cursor: pointer;
   }
