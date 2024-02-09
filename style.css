@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(239, 211, 211);
+    background-color: rgb(54, 52, 52);
   }
   
   .grid {
@@ -16,15 +16,24 @@ body {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
   }
 
-  @media (max-width:768px){
+  @media (min-width:768px){
 .grid{
-grid-template-rows: repeat(3 , 0.3fr);
-grid-template-columns: repeat(3 , 0.3fr);
+grid-template-rows: repeat(3 , 1fr);
+grid-template-columns: repeat(3 , 1fr);
 }
 
 
   }
-  
+  @media (max-width:768px){
+    .grid{
+    grid-template-rows: repeat(3 , 0.2fr);
+    grid-template-columns: repeat(3 , 0.3fr);
+    }
+    
+    
+      }
+
+
   .space {
     background-color: white;
     transition: background-color .5s;  
